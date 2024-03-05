@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+    </Container>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="mnoCadastros">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cadastros"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnoCadastrosActionPerformed"/>
+          </Events>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="mnoCliente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cliente"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnoClienteActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnoFuncionario">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Funcion&#xe1;rio"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnoFuncionarioActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnoVeiculo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ve&#xed;culo"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnoVeiculoActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="mnoModelo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Modelo"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mnoModeloActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="mnoRelatorio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Relat&#xf3;rio"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mnoRelatorioMouseClicked"/>
+          </Events>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Op&#xe7;&#xf5;es"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sobre"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem5ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Manual do sistema"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem6ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Logout"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem7ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sair"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem8ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel5">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel9" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="btVoltar" min="-2" pref="86" max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" min="-2" pref="628" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="btVoltar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" pref="330" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="18" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel9">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="67" green="b0" red="0" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="10" style="1"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="375" max="32767" attributes="0"/>
+                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbNomeFun" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lbData" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbNomeFun" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbData" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="31" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Bem vindo,"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbNomeFun">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="NomeFuncionario"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbData">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="13/12/3000"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="btVoltar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="7a" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Voltar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btVoltarActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="txtManual">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="MANUAL DO SISTEMA&#xa;&#xa;O sistema foi criado de forma que sua interface seja f&#xe1;cil, objetiva e intuitiva, entretanto este manual o ajudar&#xe1; &#xa;caso possua d&#xfa;vida sobre alguma de suas funcionalidades ou como faz&#xea;-las.&#xa;&#xa;LOGIN&#xa;&#xa;A partir do momento que seu login e senha s&#xe3;o verificados, o sistema exibe as telas pertinentes ao perfil do &#xa;usu&#xe1;rio logado.&#xa;Existem 2 tipos de perfis: administrador e vendedor. Administradores  t&#xea;m acesso a todas as funcionalidades &#xa;do sistema como cadastros, edi&#xe7;&#xf5;es, exclus&#xf5;es e relat&#xf3;rios. &#xa;J&#xe1; o vendedor, al&#xe9;m da tela de venda, cat&#xe1;logo e estoque, pode cadastrar, editar, excluir e visualizar o que &#xa;for relacionado a clientes. &#xa;No entanto, n&#xe3;o possui as demais permiss&#xf5;es do administrador.&#xa;&#xa;CADASTROS&#xa;&#xa;Todos os cadastros est&#xe3;o dispon&#xed;veis no menu de cadastros no canto superior esquerdo. Administradores &#xa;t&#xea;m permiss&#xe3;o para cadastrar clientes (f&#xed;sicos e jur&#xed;dicos), funcion&#xe1;rios que ter&#xe3;o acesso ao sistema, &#xa;modelos e ve&#xed;culos. Lembre-se de preencher todos os campos pois cada informa&#xe7;&#xe3;o &#xe9; importante e o &#xa;cadastro n&#xe3;o ser&#xe1; efetuado se faltar algum. &#xa;&#xa;* Como cadastrar Clientes (F&#xed;sico/Jur&#xed;dico)?&#xa;&#xa;Dentro do menu de cadastros, existe a op&#xe7;&#xe3;o &quot;Cliente&quot;, ap&#xf3;s entrar, ser&#xe1; apresentado &#xe0; uma tela &#xa;na qual deve selecionar se o cliente &#xe9; f&#xed;sico ou jur&#xed;dico. Isso mudar&#xe1; as informa&#xe7;&#xf5;es que devem ser inseridas &#xa;e ser&#xe3;o salvas. Preencha todos os dados, s&#xe3;o obrigat&#xf3;rios.&#xa;&#xa;* Como fazer cadastro de Funcion&#xe1;rios?&#xa;&#xa;Na op&#xe7;&#xe3;o &quot;Funcion&#xe1;rio&quot; &#xe9; onde o administrador ser&#xe1; direcionado para a tela em que ir&#xe1; selecionar qual &#xa;o perfil, login e senha, al&#xe9;m de inserir as informa&#xe7;&#xf5;es dos funcion&#xe1;rios que ter&#xe3;o acesso ao sistema e &#xa;automaticamente suas permiss&#xf5;es. Por quest&#xf5;es de seguran&#xe7;a, atualizar login, senha ou tipo de perfil &#xa;s&#xf3; pode ser feito pelo administrador. Caso seja necess&#xe1;rio, entre em contato com algum admistrador &#xa;para fazer a altera&#xe7;&#xe3;o.&#xa;&#xa;* Como fazer o cadastro de um Modelo?&#xa;&#xa;Caso n&#xe3;o exista o cadastro do modelo escolhido (voc&#xea; pode checar no relat&#xf3;rio de modelos na tela &#xa;inicial), um novo pode ser efetuado em &quot;Modelo&quot;. Voc&#xea; pode cadastrar uma nova marca no bot&#xe3;o &#xa;com o s&#xed;mbolo de &quot;+&quot; ao lado da caixa de sele&#xe7;&#xe3;o de marca, caso a mesma n&#xe3;o esteja listada.&#xa;&#xa;Especificando os dados com exemplos:&#xa;&quot;Tipo&quot; - utilitario, esportivo, transporte;&#xa;&quot;Vers&#xe3;o&quot; - LTZ, LS, Si, Sport, Adventure;&#xa;&quot;Esp&#xe9;cie&quot; - passageiros, carga, mista;&#xa;&quot;Carroceria&quot; - sedan, SUV, hatch;&#xa;&quot;Motor&quot; -  2JZ-GTE, K24A, LS3;&#xa;&quot;Pot&#xea;ncia&quot; - 245cv, 301cv, 450cv;&#xa;&quot;Lota&#xe7;&#xe3;o&quot; - 2, 2+1, 5, 5+1.&#xa;&#xa;* Como fazer o cadastro de um Ve&#xed;culo?&#xa;&#xa;Para cadastrar um ve&#xed;culo, primeiro deve existir o modelo dele, leia o t&#xf3;pico anterior se necess&#xe1;rio.&#xa;Na op&#xe7;&#xe3;o &quot;Ve&#xed;culo&quot; ser&#xe3;o cadastrados os dados espec&#xed;ficos de um ve&#xed;culo. Campos como cor, ano &#xa;fabrica&#xe7;&#xe3;o, ano modelo e os demais selecion&#xe1;veis (exceto status) podem ter novos itens adicionados &#xa;se necess&#xe1;rio ao clicar nos bot&#xf5;es com o s&#xed;mbolo &quot;+&quot; ao lado das suas respectivas caixas de sele&#xe7;&#xe3;o.&#xa;&#xa;RELAT&#xd3;RIOS&#xa;&#xa;Os relat&#xf3;rios podem ser acessados ao clicar na segunda op&#xe7;&#xe3;o do menu superior chamada &#xa;&quot;Relat&#xf3;rio&quot; ou na tela inicial . &#xa;Cada bot&#xe3;o tem o nome do tipo de dado que ser&#xe1; relatado.&#xa;Para os administradores, &#xe9; neles que existem as op&#xe7;&#xf5;es de atualizar e excluir (que ser&#xe3;o &#xa;explicadas nos t&#xf3;picos abaixo) e que s&#xe3;o exibidos os dados existentes. &#xa;Para os vendedores, os relat&#xf3;rios se limitam a clientes f&#xed;sicos e jur&#xed;dicos. Por&#xe9;m, na mesma &#xa;localiza&#xe7;&#xe3;o, possuem cat&#xe1;logo e estoque para consulta dos ve&#xed;culos.&#xa;&#xa;EDI&#xc7;&#xd5;ES&#xa;&#xa;Para editar qualquer tipo de cadastro, voc&#xea; deve ir ao relat&#xf3;rio correspondente (ou seja, para editar &#xa;um ve&#xed;culo, v&#xe1; para o relat&#xf3;rio de ve&#xed;culos), na lateral direita estar&#xe1; o bot&#xe3;o de editar. Verifique na &#xa;caixa de sele&#xe7;&#xe3;o qual cadastro deseja alterar e selecione, desta forma os campos n&#xe3;o selecion&#xe1;veis &#xa;ir&#xe3;o se preencher automaticamente. Modifique as informa&#xe7;&#xf5;es que desejar.&#xa;&#xa;EXCLUS&#xd5;ES&#xa;&#xa;Para excluir qualquer tipo de cadastro, voc&#xea; deve ir ao relat&#xf3;rio correspondente assim como na &#xa;edi&#xe7;&#xe3;o e na lateral direita estar&#xe1; o bot&#xe3;o de excluir. Na caixa de di&#xe1;logo que surgir&#xe1;, insira o ID &#xa;do item que deseja deletar (o ID pode ser visualizado no relat&#xf3;rio) e confirme se desejado.&#xa;&#xa;Observa&#xe7;&#xf5;es:&#xa;Por quest&#xf5;es de seguran&#xe7;a, ve&#xed;culos que j&#xe1; foram vendidos e clientes que j&#xe1; tenham efetuado &#xa;uma compra n&#xe3;o podem ter seuscadastros deletados. Da mesma forma relat&#xf3;rios de vendas &#xa;tamb&#xe9;m n&#xe3;o podem ser deletados ou alterados.&#xa;&#xa;VENDAS&#xa;&#xa;Assim como o administrador tem &#xe1;reas que apenas ele tem acesso, os vendedores s&#xe3;o os &#xa;&#xfa;nicos que possuem uma &#xe1;rea dispon&#xed;vel para a venda de ve&#xed;culos e ela pode ser acessada &#xa;na sua tela inicial.&#xa;O sistema permite que os dados sobre o cliente sejam preenchidos automaticamente atrav&#xe9;s &#xa;de uma pesquisa pelo CPF ou CNPJ (selecione se o cliente &#xe9; f&#xed;sico ou jur&#xed;dico para a mudan&#xe7;a &#xa;de dados). Caso n&#xe3;o possua nenhum registro,uma caixa de di&#xe1;logo surgir&#xe1; perguntando se h&#xe1; &#xa;vontade de fazer um novo cadastro ou n&#xe3;o.&#xa;Semelhante ao cliente, h&#xe1; uma caixa de sele&#xe7;&#xe3;o de ve&#xed;culos que preencher&#xe1; automaticamente &#xa;os dados do ve&#xed;culo selecionado.&#xa;&#xa;Selecione a forma de pagamento.&#xa;A Vista: O autom&#xf3;vel sai com 10% de desconto;&#xa;Parcelado: At&#xe9; 12x sem juros, acima disso ter&#xe1; um acr&#xe9;scimo de 1.63% de juros/m&#xea;s.&#xa;Cons&#xf3;rcio: As parcelas n&#xe3;o possuem juros independente da quantidade.&#xa;Marque a op&#xe7;&#xe3;o desejada e escolha a quantidade de presta&#xe7;&#xf5;es para os casos de parcelado e &#xa;cons&#xf3;rcio, o c&#xe1;lculo &#xe9;autom&#xe1;tico. Se houver entrada, o valor ser&#xe1; abatido.&#xa;&#xa;LOGOUT/SAIR&#xa;&#xa;Para sair do seu perfil ou fechar o sistema, v&#xe1; at&#xe9; &quot;Op&#xe7;&#xf5;es&quot; do menu superior.&#xa;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
